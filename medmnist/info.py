@@ -7,7 +7,8 @@ import warnings
 
 
 def get_default_root():
-    home = expanduser("~")
+    # home = expanduser("~")
+    home = '/kw_resources'
     dirpath = os.path.join(home, ".medmnist")
 
     try:
